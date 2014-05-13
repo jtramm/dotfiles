@@ -20,6 +20,7 @@ alias midway='ssh midway.rcc.uchicago.edu'
 alias vesta='ssh vesta.alcf.anl.gov'
 alias pnnl='ssh tram492@pascal.emsl.pnl.gov'
 alias tomcatcc='javac -cp /opt/local/share/java/tomcat6/lib/servlet-api.jar *.java'
+alias tesla='ssh tesla.mcs.anl.gov'
 
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
