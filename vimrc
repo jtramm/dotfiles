@@ -19,3 +19,5 @@ let fortran_do_enddo=1
 let fortran_fold=1
 
 set foldmethod=syntax
+
+:set cinkeys-=0#
