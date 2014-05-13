@@ -21,3 +21,5 @@ let fortran_fold=1
 set foldmethod=syntax      " Function folding. 'za' to roll, 'zi' to disable
 
 :set cinkeys-=0#           " Indent #pragma lines as you would regular code
+
+set tabpagemax=20          " Increases maximum number of tabs open at once
