@@ -22,12 +22,19 @@ echo "Changing to the $dir directory"
 cd $dir
 echo "...done"
 
-# move any existing dotfiles in homedir to dotfiles_old directory, then create symlinks 
+# move any existing dotfiles in homedir to dotfiles_old directory 
+echo "Moving any existing dotfiles from ~ to $olddir"
 for file in $files; do
-    echo "Moving any existing dotfiles from ~ to $olddir"
     mv ~/.$file $olddir/
-    echo "Creating symlink to $file in home directory."
+done
+mv ~/.bashrc $olddir/
+
+
+# Create symlinks
+for file in $files; do
+    echo "Creating symlink: ~/.$file -> $dir/$file"
     ln -s $dir/$file ~/.$file
 done
 
+echo "Creating symlink: ~/.bashrc -> $dir/bash_profile"
 ln -s $dir/bash_profile ~/.bashrc
