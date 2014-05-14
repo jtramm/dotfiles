@@ -14,12 +14,17 @@ set wildignore=*.o,*~      " Ignore object and swap files
 set smarttab               " Be smart when using tabs
 set nohlsearch             " Don't continue to highlight searched phrases.
 set incsearch              " But do highlight as you type your search.
-set foldmethod=syntax      " Function folding. 'za' to roll, 'zi' to disable
 set tabpagemax=20          " Increases maximum number of tabs open at once
 set cinkeys-=0#            " Indent #pragma lines as you would regular code
+
 let fortran_free_source=1  " Fortran stuff
 let fortran_do_enddo=1
 let fortran_fold=1
+let fortran_fold_conditionals=1
+let fortran_more_precise=1
+
+set foldmethod=syntax      " Function folding. 'za' to roll, 'zi' to disable
+
 let mapleader = ","        " Set leader to , (useful for below mappings)
 let g:mapleader = ","
 
