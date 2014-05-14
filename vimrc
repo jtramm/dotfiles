@@ -2,7 +2,6 @@
 "                    John Tramm's Vim Configuration File
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Settings
 set nocompatible           " get rid of Vi compatibility mode.
 filetype plugin indent on  " filetype detection[ON] plugin[ON] indent[ON]
 syntax enable              " enable syntax highlighting
