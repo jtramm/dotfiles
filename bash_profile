@@ -23,6 +23,7 @@ alias vesta='ssh vesta.alcf.anl.gov'
 alias pnnl='ssh tram492@pascal.emsl.pnl.gov'
 alias tomcatcc='javac -cp /opt/local/share/java/tomcat6/lib/servlet-api.jar *.java'
 alias tesla='ssh tesla.mcs.anl.gov'
+alias cmatrix='cmatrix -a -u 3'
 
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
