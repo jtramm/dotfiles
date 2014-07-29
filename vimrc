@@ -17,6 +17,12 @@ set incsearch              " But do highlight as you type your search.
 set tabpagemax=20          " Increases maximum number of tabs open at once
 set cinkeys-=0#            " Indent #pragma lines as you would regular code
 
+" To help break my bad habbit
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
+
 let fortran_free_source=1  " Fortran stuff
 let fortran_do_enddo=1
 let fortran_fold=1

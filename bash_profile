@@ -5,8 +5,8 @@
 export PATH=$PATH:/Users/jtramm/sst/install/bin
 export PATH=$PATH:/Applications/MATLAB_R2014a.app/bin
 export MATLAB_JAVA=/Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin/Contents/Home
-export PATH=$PATH:/usr/local/cuda-5.5/bin
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-5.5/lib64
+export PATH=$PATH:/usr/local/cuda-6.0/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-6.0/lib64
 
 #John Tramm aliases
 #alias gcc='gcc -Wall -std=c99 -o a'
