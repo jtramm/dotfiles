@@ -23,6 +23,7 @@ alias vesta='ssh vesta.alcf.anl.gov'
 alias pnnl='ssh tram492@pascal.emsl.pnl.gov'
 alias tomcatcc='javac -cp /opt/local/share/java/tomcat6/lib/servlet-api.jar *.java'
 alias tesla='ssh tesla.mcs.anl.gov'
+alias jlse='ssh login.jlse.anl.gov'
 alias cmatrix='cmatrix -a -u 3'
 alias hlog='vim + /Users/jtramm/Dropbox/work_logs/CESAR_ANL_work_logs.txt'
 
