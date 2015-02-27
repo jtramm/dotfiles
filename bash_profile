@@ -26,7 +26,7 @@ alias tesla='ssh tesla.mcs.anl.gov'
 alias jlse='ssh login.jlse.anl.gov'
 alias cmatrix='cmatrix -a -u 3'
 alias hlog='vim + /Users/jtramm/Dropbox/work_logs/CESAR_ANL_work_logs.txt'
-alias nsecluster='ssh nsecluster.mit.anl.edu'
+alias nsecluster='ssh nsecluster.mit.edu'
 
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
