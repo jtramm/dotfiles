@@ -2,7 +2,7 @@
 "                    John Tramm's Vim Configuration File
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-execute pathogen#infect()  " For pathogen
+execute pathogen#infect()
 set nocompatible           " get rid of Vi compatibility mode.
 filetype plugin indent on  " filetype detection[ON] plugin[ON] indent[ON]
 syntax enable              " enable syntax highlighting
